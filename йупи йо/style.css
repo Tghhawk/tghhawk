@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(175, 175, 175);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.answer {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+.skip {
+background-color: blue;
+color: white;
+font-size: 40px;
+font-weight: 800;
+padding: 10px;
+margin-left: auto;
+display: block;
+margin-top: 10px;
+
+}
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.timer {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.question {
+
+    width: 800px;
+    border-radius: 10px;
+    box-shadow: 9px 4px 65px 47px rgba(0,0,0,0.46);
+-webkit-box-shadow: 9px 4px 65px 47px rgba(0,0,0,0.46);
+-moz-box-shadow: 9px 4px 65px 47px rgba(0,0,0,0.46);
+}
+
+b{
+    font-size: 40px;
+    text-align: center;
+}
+
+.box {
+transition: all 0.5;
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+.btn {
+    font-size: 50px;
+    background-color: red;
+    width: 100%;
+    color: white;
+    border-radius: 10px;
+padding: 50px;
+    display: block;
+    box-shadow: 9px 4px 65px 47px rgba(179,26,26,0.28);
+-webkit-box-shadow: 9px 4px 65px 47px rgba(179,26,26,0.28);
+-moz-box-shadow: 9px 4px 65px 47px rgba(179,26,26,0.28);
+}
+.btn1 {
+    background-color: blue;
+    box-shadow: 9px 4px 65px 47px rgba(44,105,140,0.53);
+-webkit-box-shadow: 9px 4px 65px 47px rgba(44,105,140,0.53);
+-moz-box-shadow: 9px 4px 65px 47px rgba(44,105,140,0.53);
+}
+.btn2 {
+}
+.btn:hover{
+   opacity:0.8 ;
+
+}
