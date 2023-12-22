@@ -1,0 +1,133 @@
+
+body{
+ background-color: #EEEFF1;
+}
+
+
+.korzinka {
+background-color:whitesmoke;
+width: 24px;
+height: 24px;
+flex-shrink: 0;
+padding: 16px 16px;
+border-radius: 50px;
+}
+.btn{
+ background-color: black;
+ color: rgb(255, 255, 255);
+padding: 15px 30px;
+justify-content: center;
+align-items: center;
+border-radius: 40px;
+color: #FFF;
+
+
+}
+nav{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+
+}
+.conteiner{
+ max-width: 1200px;
+ width: 100%;
+ margin: 0 auto;
+}
+.link {
+ color: #1B1B1D;
+padding: 41px 40px;
+ font-size: 15px;
+ font-style: normal;
+ font-weight: 500;
+ line-height: normal;
+}
+.cnopka button{
+ display: flex;
+padding: 20px 40px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+background-color:black;
+color: #FFF;
+border-radius: 50px;
+}
+.cnopka a{
+background-color: whitesmoke;
+color: #1B1B1D;
+border-radius: 50px;
+
+}
+.cnopka{
+ display: flex;
+align-items: center;
+gap: 30px;
+}
+h1{
+ color: #1B1B1D;
+
+ font-size: 124px;
+ font-style: normal;
+ font-weight: 800;
+ line-height: 140px; /* 112.903% */
+}
+p{
+ color: #64646A;
+
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.boxx{
+ display: flex;
+ justify-content: space-between;
+ 
+}
+h1::after {
+ content: "";
+ display: inline-block;
+margin-bottom: 10px;
+ width: 73px;
+height: 58px;
+flex-shrink: 0;
+ background-image: url(./w.png);
+ background-size: cover;
+ background-repeat: no-repeat;
+ background-position: center;
+}
+.btn3{
+ display: inline-flex;
+padding: 15px 30px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+background-color: black;
+color: white;
+border-radius: 50px;
+}
+
+ .card{
+  width: 300px;
+  height: 400px;
+  background-color: white;
+border-radius: 5px;
+ }
+ .foot{
+  text-align: center;
+ }
+
+
+
+.card .btn{
+ margin: 0 auto;
+ display: block;
+}
+h3{
+ color: #64646A;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
