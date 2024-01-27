@@ -25,7 +25,8 @@
 
   h1{
     font-size: 80px;
-  
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
   }
 
 p{
@@ -123,4 +124,111 @@ p{
   font-size: 20px;
 }
 
+}
+
+
+
+.myButton {
+	background-color:#ff00a2;
+	border-radius:11px;
+	border:3px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:11px 45px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #9e1678;
+}
+.myButton:hover {
+	background-color:#bf316a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+              
+
+.card___popular{
+
+  img{
+    width: 400px;
+    margin-top: 30px;
+    margin-right: 20px;
+  }
+  p{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+}
+
+.cards__popular{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  border-radius: 50px;
+}
+
+
+.popular{
+  width: 100%;
+  background-color:#18183f;
+margin-bottom: 100px;
+  margin-top: 40px;
+  padding: 20px;
+
+ 
+}
+
+
+.container__popular{
+  p{
+    color: #50c3f4;
+    text-align: center;
+  }
+h6{
+  color: white;
+font-size: 70px;
+  text-align: center;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+}
+
+
+
+
+
+.box_reviews{
+  width: 100%;
+  background-color: #ddffe3;
+  padding: 100px 100px;
+  margin-top: 20px;
+
+}
+.card_reviews{
+  width: 500px;
+  height: 200px;
+  border-radius: 10px;
+  background-color: white;
+  text-align: center;
+  padding-top:30px ;
+margin-left: 400px;
+  padding-bottom: 20px;
+}
+
+.reviews{
+  h3{
+    font-size: 70px;
+    text-align: center;
+  }
+}
+.shel_reviews{
+  img{
+    border-radius: 30px;
+    margin-top: 20px;
+
+  }
 }
