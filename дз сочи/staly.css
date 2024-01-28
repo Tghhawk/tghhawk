@@ -232,3 +232,15 @@ margin-left: 400px;
 
   }
 }
+
+
+.com_img{
+  width: 100px;
+}
+
+.com__wrapper{
+  display: flex;
+  justify-content: space-around;
+
+ 
+}
