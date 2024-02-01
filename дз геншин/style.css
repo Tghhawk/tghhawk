@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}  
+
+
+.img_alakro{
+    width: 300px;
+  
+}
+
+.cards-alakro{
+font-family: 'Times New Roman', Times, serif;
+
+}
+
+
+
+.container-opuj{
+    max-width: 100%;
+    margin: 100px;
+}
+
+
+.card-alakro{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    -webkit-box-shadow: -2px 29px 31px -4px rgba(34, 60, 80, 0.06);
+-moz-box-shadow: -2px 29px 31px -4px rgba(34, 60, 80, 0.06);
+box-shadow: -2px 29px 31px -4px rgba(34, 60, 80, 0.06);
+}
+.img_alakro-beidou{
+    width: 370px;
+}
+
+
+.img_alakro-fishl{
+    width: 170px;  
+}
+
+
+.img_alakro-kuki{
+    width: 240px; 
+}
+
+
+.container{
+    width: 100%;
+    background: rgb(117,112,191);
+background: linear-gradient(90deg, rgba(117,112,191,1) 0%, rgba(108,108,237,1) 49%, rgba(142,125,201,1) 100%);
+}
+
+
+.text-alakro{
+    display: flex;
+    justify-content: center;
+    color: purple;
+    img{
+        width: 50px;
+    }
+}
+
+
+.img_opuj-fishl{
+    width: 200px;
+}
+
+.img_opuj-beidou{
+    width: 200px;
+}
+
+.img_opuj{
+width: 200px;
+}
+.img_opuj-kuki{
+    width: 190px;
+}
+
+
+.img_alakro-ray{
+    width: 320px;
+}
+
+
+.text-crio{
+    display: flex;
+    justify-content: center;
+    color: rgb(69, 108, 194);
+    img{
+        width: 50px;
+    }   
+}
+
+
+.ayaka{
+    width: 400px;
+}
+
+.ganyu{
+    width: 400px;
+}
+
+
+
+.container-crio{
+display: flex;
+justify-content: center;
+gap: 30px;
+
+}
+
+
+.shun{
+    width: 400px;
+}
+
+
+.container-crio{
+    background: rgb(210,226,255);
+background: linear-gradient(90deg, rgba(210,226,255,1) 0%, rgba(200,233,255,1) 49%, rgba(187,204,255,1) 100%);
+}
+
+
+.shanhe{
+    width: 400px;
+}
