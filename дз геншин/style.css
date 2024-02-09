@@ -1,3 +1,7 @@
+body{
+
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -26,9 +30,15 @@ font-family: 'Times New Roman', Times, serif;
     display: flex;
     justify-content: center;
     gap: 20px;
-    -webkit-box-shadow: -2px 29px 31px -4px rgba(34, 60, 80, 0.06);
+    /* -webkit-box-shadow: -2px 29px 31px -4px rgba(34, 60, 80, 0.06);
 -moz-box-shadow: -2px 29px 31px -4px rgba(34, 60, 80, 0.06);
-box-shadow: -2px 29px 31px -4px rgba(34, 60, 80, 0.06);
+box-shadow: -2px 29px 31px -4px rgba(34, 60, 80, 0.06); */
+background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 9px );
+-webkit-backdrop-filter: blur( 9px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
 }
 .img_alakro-beidou{
     width: 370px;
@@ -82,7 +92,7 @@ width: 200px;
     width: 320px;
 }
 
-
+/* crio */
 .text-crio{
     display: flex;
     justify-content: center;
@@ -124,4 +134,35 @@ background: linear-gradient(90deg, rgba(210,226,255,1) 0%, rgba(200,233,255,1) 4
 
 .shanhe{
     width: 400px;
+}
+
+
+.cards-crio {
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.card-crio {
+
+    max-width: 300px;
+    img {
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+    }
+
+    .star-crio {
+        width: 100px;
+        height: 30px;
+    }
+}
+
+
+.img_opuj-ayaka{
+    width: 200px;
+    margin: 10px;
+    margin-left: 10px;
+
 }
