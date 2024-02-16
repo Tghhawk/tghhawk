@@ -166,3 +166,40 @@ background: linear-gradient(90deg, rgba(210,226,255,1) 0%, rgba(200,233,255,1) 4
     margin-left: 10px;
 
 }
+
+
+.text-anemo{
+    display: flex;
+    justify-content: center;
+
+    color: rgb(69, 108, 194);
+    img{
+        width: 50px;
+    }   
+}
+
+
+.kazax{
+    width: 350px;
+}
+.can-yn{
+    width: 300px;
+}
+
+
+.cards-anemo{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+    }
+
+
+.cao{
+    width: 250px;
+}
+
+
+.saharoza{
+    width: 300px;
+}
