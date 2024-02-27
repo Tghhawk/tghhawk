@@ -1,0 +1,60 @@
+
+*{
+  margin: 0 ;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header{
+  background-image: url(./Background.png);
+}
+
+
+h1{
+color: white;
+    font-weight: 700;
+    font-size: 6.3rem;
+    line-height: 100%;
+
+}
+
+span{
+  color: white;
+  font-size: 1.3rem;
+}
+
+
+.text-44 {
+  font-weight: 700;
+  font-size: 2.7rem;
+  line-height: 130%;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.myButton {
+	background-color:#ffffff;
+	border-radius:28px;
+	border:1px solid #b05177;
+	display:inline-block;
+	cursor:pointer;
+	color:#dbbac6;
+	font-family:Arial;
+	font-size:21px;
+	padding:11px 35px;
+	text-decoration:none;
+	text-shadow:0px -3px 0px #66285c;
+}
+.myButton:hover {
+	background-color:#ffffff;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.header__wrapper{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
