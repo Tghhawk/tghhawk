@@ -1,7 +1,3 @@
-body{
-
-}
-
 *{
     margin: 0;
     padding: 0;
@@ -30,15 +26,9 @@ font-family: 'Times New Roman', Times, serif;
     display: flex;
     justify-content: center;
     gap: 20px;
-    /* -webkit-box-shadow: -2px 29px 31px -4px rgba(34, 60, 80, 0.06);
+    -webkit-box-shadow: -2px 29px 31px -4px rgba(34, 60, 80, 0.06);
 -moz-box-shadow: -2px 29px 31px -4px rgba(34, 60, 80, 0.06);
-box-shadow: -2px 29px 31px -4px rgba(34, 60, 80, 0.06); */
-background: rgba( 255, 255, 255, 0.25 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 9px );
--webkit-backdrop-filter: blur( 9px );
-border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
+box-shadow: -2px 29px 31px -4px rgba(34, 60, 80, 0.06);
 }
 .img_alakro-beidou{
     width: 370px;
@@ -92,7 +82,7 @@ width: 200px;
     width: 320px;
 }
 
-/* crio */
+
 .text-crio{
     display: flex;
     justify-content: center;
@@ -104,102 +94,104 @@ width: 200px;
 
 
 .ayaka{
-    width: 400px;
+    width: 300px;
 }
 
 .ganyu{
-    width: 400px;
+    width: 300px;
 }
 
 
 
 .container-crio{
 display: flex;
-justify-content: center;
-gap: 30px;
+justify-content: space-between;
+gap: 60px;
 
 }
 
 
 .shun{
-    width: 400px;
+    width: 300px;
+    margin-top: 20px;
 }
 
 
 .container-crio{
     background: rgb(210,226,255);
+    width: 100%;
 background: linear-gradient(90deg, rgba(210,226,255,1) 0%, rgba(200,233,255,1) 49%, rgba(187,204,255,1) 100%);
 }
 
 
 .shanhe{
-    width: 400px;
+    width: 300px;
 }
 
 
-.cards-crio {
-    /* display: flex; */
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    gap: 30px;
-}
-
-.card-crio {
-
-    max-width: 300px;
-    img {
-        width: 250px;
-        height: 250px;
-        object-fit: cover;
-    }
-
-    .star-crio {
-        width: 100px;
-        height: 30px;
-    }
-}
 
 
-.img_opuj-ayaka{
+
+
+.crio-img-shanhe{
     width: 200px;
-    margin: 10px;
-    margin-left: 10px;
-
 }
+.crio-img-shud{
+    width: 200px;
+}
+
+.crio-img-gann{
+width: 200px;
+}
+
+
+
+.crio-img-ayaka{
+    width: 200px;
+}
+
+
+.kazax{
+   width: 300px;
+}
+
+.stranik{
+    width: 300px;
+}
+
+.liuyun{
+    width: 300px;
+
+    margin-top: 20px;
+}
+
+
+
+.linet{
+    width: 300px;
+}
+
+
+
 
 
 .text-anemo{
     display: flex;
     justify-content: center;
 
-    color: rgb(69, 108, 194);
+    color: rgb(12, 75, 68);
     img{
         width: 50px;
-    }   
+    }
 }
 
 
-.kazax{
-    width: 350px;
-}
-.can-yn{
-    width: 300px;
-}
 
-
-.cards-anemo{
+.card-anemo{
     display: flex;
-    justify-content: center;
-    gap: 30px;
+    justify-content: space-between;
+    gap: 60px;
+    background-color: rgba(57, 162, 158, 0.34) ;
     
     }
-
-
-.cao{
-    width: 250px;
-}
-
-
-.saharoza{
-    width: 300px;
-}
+    
