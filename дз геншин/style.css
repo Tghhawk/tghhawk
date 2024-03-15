@@ -152,6 +152,8 @@ width: 200px;
 
 
 .kazax{
+
+    margin-top: 80px;
    width: 300px;
 }
 
@@ -162,7 +164,7 @@ width: 200px;
 .liuyun{
     width: 300px;
 
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 
@@ -171,7 +173,10 @@ width: 200px;
     width: 300px;
 }
 
-
+.cards-opujee{
+display: flex;
+justify-content:center;
+}
 
 
 
@@ -187,11 +192,20 @@ width: 200px;
 
 
 
-.card-anemo{
+
+
+
+.container-anemo{
+    background: rgb(210,226,255);
+    width: 100%;
+background-color: rgba(158, 235, 233, 0.281);
+
+}
+    
+
+.cards-anema{
     display: flex;
-    justify-content: space-between;
-    gap: 60px;
-    background-color: rgba(57, 162, 158, 0.34) ;
-    
-    }
-    
+justify-content: center
+}
+
+
