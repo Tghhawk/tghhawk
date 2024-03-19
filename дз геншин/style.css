@@ -220,21 +220,66 @@ div{
 
 .container-anemo{
     max-width: 1100px;
-    padding: 0 15;
+    padding: 0 15px;
+    margin: 0 auto;
     flex-wrap: wrap;
     background: rgb(210,226,255);
     width: 100%;
 background-color: rgba(158, 235, 233, 0.281);
+width: 100%;
+background: rgba(98, 200, 207, 0.507)
 
 }
     
 
 .cards-anema{
     display: flex;
-justify-content: center;
-gap: 20px;
-margin: 0 auto;
-flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 0 auto;
+    flex-wrap: wrap;
 }
 
 
+
+.cards-dendro{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+.card-dendro{
+    max-width: 1100px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    display: flex;
+
+    justify-content: center;
+    gap: 20px;
+    -webkit-box-shadow: -2px 29px 31px -4px rgba(34, 60, 80, 0.06);
+-moz-box-shadow: -2px 29px 31px -4px rgba(34, 60, 80, 0.06);
+box-shadow: -2px 29px 31px -4px rgba(34, 60, 80, 0.06);
+}
+
+
+.container-dendro{
+    width: 100%;
+    background: rgba(140, 189, 100, 0.507);
+}
+
+.text-dendro{
+    display: flex;
+    justify-content: center;
+    color: rgb(4, 128, 0);
+    img{
+        width: 50px;
+    }
+}
