@@ -1,0 +1,16 @@
+.red{
+  background-color: red;
+}
+body{
+  transition: 1s;
+}
+
+
+.blue{
+  background-color: blue;
+}
+
+
+.green{
+  background-color: green;
+}
