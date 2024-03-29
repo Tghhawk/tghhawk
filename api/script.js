@@ -4,6 +4,7 @@
 
 
 const wrapper = document.querySelector('.wrapper')
+const loader = document.querySelector('.loader')
 
 
 
@@ -31,3 +32,9 @@ const func = async () => {
 
 
 func()
+
+
+
+setTimeout(() => {
+  loader.remove()
+}, 4000);
