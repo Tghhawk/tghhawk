@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* background-image: url(./cannabis-marijuana-leaf-background-texture_684882-332.avif); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.card{
+
+  
+  border: 1px solid black;
+padding: 15px;
+align-items: center;
+display: flex;
+flex-direction: column;
+gap: 10px;
+justify-content:center;
+box-shadow: 1px 10px 5px rgba(0, 0, 0, 0.345);
+
+backdrop-filter: blur(10px);
+img{
+  width: 90%;
+  /* box-shadow: 1px 10px 5px rgba(0, 0, 0, 0.345); */
+
+  filter: drop-shadow(rgba(0, 0, 0, 0.555) 1px 1px 10px);
+}
+}
+
+.wrapper{
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+
+
+  @media (max-width: 900px) {
+    grid-template-columns: repeat(3, 1fr );
+  }
+  @media (max-width: 700px) {
+    grid-template-columns: repeat(2, 1fr); 
+  }
+
+  @media (max-width: 400px) {
+    grid-template-columns: repeat(1, 1fr); 
+  }
+}
