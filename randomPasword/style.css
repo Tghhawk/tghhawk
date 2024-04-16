@@ -1,0 +1,42 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-direction: column;
+  height: 100dvh;
+}
+
+
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 500px;
+
+  input{
+    width: 100%;
+    height: 40px;
+    padding: 0 10px;
+  }
+
+  .block{
+    display: flex;
+    gap: 20px;
+
+    select,button{
+      width: 100%;
+      height: 40px;
+      padding: 0 10px;
+      cursor: pointer;
+    }
+  }
+}
