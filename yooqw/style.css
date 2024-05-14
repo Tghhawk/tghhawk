@@ -87,7 +87,11 @@ line-height: 16px; /* 100% */
 }
 .card-img{
     width: 100%;
+    transition: 0.3s;
+
+
 }
+
 .bid p{
     color: var(--system-gray-01-light, #8E8E93);
 font-size: 16px;
